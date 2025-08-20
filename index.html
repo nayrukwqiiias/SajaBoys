@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <link rel="icon" href="puu-asset.jpg" type="image/png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Your Idol - K-Pop Demon Hunter - Saja Boys </title>
+         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+         <style>
+
+            body {
+                margin: 0;
+                font-family: 'Roboto Slab', serif;
+                background: linear-gradient(to bottom, #ffffff, #1c1c1c);
+                color: blueviolet;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                padding: 40px 20px;
+
+            }
+            h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 4em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2em;
+            max-width: 600px;
+        }
+
+        .cover {
+            width: 300px;
+            height: 300px;
+            margin: 30px 0;
+            border-radius: 10px;
+            box-shadow: 0 0 20px blueviolet;
+            object-fit: cover;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            background-color: blueviolet;
+            color: #000;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 1.1em;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: blueviolet;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #aaa;
+        }
+         </style>
+    </head>
+    <body>
+        <h1>Your Idol</h1>
+        <h2>K-Pop Demon Hunters</h2>
+        <p>Listen to ''Your Idol'' By Saja Boys in exclusive on this page!!</p>
+        <img src="https://preview.redd.it/the-choreography-of-the-saja-boys-is-unreal-whenever-theyre-v0-9luw0hzqujcf1.jpeg?width=1080&crop=smart&auto=webp&s=2cb39d9ae5f918304d9aa52fce9ae4654304af36" alt="Your Idol Cover" class="cover">
+        
+       <br><button class="btn" onclick="playAudio()">🎧 Ascolta ora</button><br>
+
+  <audio id="YourIdol-audio" controls>
+    <source src="YourIdol.mp3" type="audio/mpeg">
+  </audio>
+
+          <h2>LYRICS WITH VIDEO</h2>
+
+  <br>
+
+
+  <video id="YourIdol-video" controls>
+    <source src="Saja Boys - Your Idol (Lyrics) KPop Demon Hunters.mp4">
+  </video>
+
+
+  <script>
+    function playVideo() {
+    const video = document.getElementById("YourIdol-video");
+    video.play();
+    video.scrollIntoView({behavior: "smooth"});
+    }
+  </script>
+<br>
+
+
+  <script>
+    function playAudio() {
+      const audio = document.getElementById("YourIdol-audio");
+      audio.play();
+      audio.scrollIntoView({ behavior: "smooth" });
+    }
+  </script>
+        
+ <footer>
+        © 2025 K-Pop Demon Hunter Fanpage–
+    </footer>
+    </body>
+</html>
